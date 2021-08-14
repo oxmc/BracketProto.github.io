@@ -24,6 +24,9 @@
           color: white;
           font-size: 15px;
           image-rendering: -webkit-optimize-contrast;
+          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/protogen.png');
+          background-size: cover;
+          background-repeat: no-repeat;
       }
       .footer {
           padding: 20px;
@@ -44,21 +47,27 @@
           text-align: center;
       }
       .whitetext{
-          position:sticky;
+          position: sticky;
           color: white;
-          z-index: 2;
+      }
+      .whitetextintro{
+          position: sticky;
+          color: white;
       }
       a{
           color: white;
       }
       .introimg{
-          position:absolute;
+          position: absolute;
           right: 0;
           left: 0;
           top: 0;
           bottom: 0;
           margin: auto auto;
           z-index: -1;
+      }
+      .underline{
+        text-decoration: underline;
       }
   </style>
 </head>
@@ -68,22 +77,18 @@
     </div>
     <div class="introduction">
         <div class="center">
-            <div class="whitetext">
-                <img class="introimg" src="./assets/proto.png" > 
-                <p>========</p>
+            <div class="whitetextintro">
+                <img class="introimg" src="./assets/protogen.png" width="390px" > 
+                <p>================</p>
                 <h1>Hi i'm {Bracket!}</h1>
-                <p>I'm a British programmer</p>
+                <p>I'm a British coder boi</p>
                 <p>Gay Furry</p>
-                <p>========</p>
+                <p>================</p>
                 <br/>
                 <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <h1>What is this?</h1>
+                <p>This website is for my projects,</p>
+                <p>information about me and other fun things!</p>
                 <br/>
                 <br/>
                 <br/>
@@ -96,7 +101,7 @@
     <div class="section">
     <div class="center">
         <div class="whitetext">
-            <h1>Projects</h1>
+            <h1 class="underline">Projects</h1>
             <h2 class="whitetext">UwUBot</h4>
                 <img src="https://uwubot.org/assets/images/servericon-all.png">
                 <br>
