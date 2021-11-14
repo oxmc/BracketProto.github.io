@@ -1,129 +1,189 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Bracket Proto</title>
-  <meta name="description" content="Bracket">
-  <link rel="icon" href="./assets/Brackets.png">
-  <style>
-      body, html{
-          font-family: Arial, Helvetica, sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: black;
-      }
-      .header {
-          padding: 20px;
-          background-color: #370617;
-          color: white;
-          font-size: 10px;
-      }
-      .introduction {
-          padding: 20px;
-          background-color: #242424;
-          color: white;
-          font-size: 15px;
-          image-rendering: -webkit-optimize-contrast;
-          background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/protogen.png');
-          background-size: cover;
-          background-repeat: no-repeat;
-      }
-      .footer {
-          padding: 20px;
-          background-color: black;
-          color: white;
-          font-size: 10px;
-          image-rendering: -webkit-optimize-contrast;
-      }
-      .section{
-          padding: 20px;
-          background-color: #03071e;
-          color: white;
-          font-size: 15px;
-          image-rendering: -webkit-optimize-contrast;
-      }
-      
-      .center{
-          text-align: center;
-      }
-      .whitetext{
-          color: white;
-      }
-      .whitetextintro{
-          position: sticky;
-          color: white;
-      }
-      a{
-          color: white;
-      }
-      .introimg{
-          position: absolute;
-          right: 0;
-          left: 0;
-          top: 0;
-          bottom: 0;
-          margin: auto auto;
-          z-index: -1;
-      }
-      .underline{
-        text-decoration: underline;
-      }
-  </style>
-</head>
-<body>
-    <div class="header">
-        <h1>Bracket the Protogen</h1>
-    </div>
-    <div class="introduction">
-        <div class="center">
-            <div class="whitetextintro">
-                <img class="introimg" src="./assets/protogen.png" width="390px" > 
-                <p>================</p>
-                <h1>Hi i'm {Bracket!}</h1>
-                <p>-I'm a British coder boi</p>
-                <p>-Gay Furry</p>
-                <p>================</p>
-                <br/>
-                <br/>
-                <h1>OwO Whats This?</h1>
-                <small><small><small>(I'm sorry.)</small></small></small>
-                <p>This website is for my projects,</p>
-                <p>information about me and other fun things!</p>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-            </div>
-        </div>
-    </div>
-    <div class="section">
-    <div class="center">
-        <div class="whitetext">  
-            <h1 class="underline">Projects</h1>
-            <h2 class="whitetext">UwUBot</h2>
-            <img src="https://uwubot.org/assets/images/servericon-all.png">
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("./Assets/images/background.png");
+                background-size: 100%;
+                background-color: #1a0e0f;
+                background-repeat: no-repeat;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                margin: 0;
+                padding: 0;
+            }
+            .header{
+                text-align: left;
+                display: inline;
+                overflow: hidden;
+            }
+            .headercenter{
+                transform: translateX(-50%);
+                position: absolute;
+                left: 50%; 
+                top: 2.5%;
+                display: inline;
+                font-size: 20px;
+                
+            }
+            a, a:hover, a:focus, a:active {
+                text-decoration: none;
+                color: inherit;
+            }
+            .info{
+                background: rgba(0, 0, 0, 0.103);
+                backdrop-filter: blur(50px);
+                width: 50%;
+                font-size: 20px;
+                box-shadow: 10px -2px 10px rgba(0, 0, 0, 0.103);
+                display: inline-block;
+            }
+            .section
+            {
+                width: 100%;
+                height: 100%;
+                background-color: #36393f;
+                text-align: center;
+            }
+            .buttondiscord{
+                background-color: #5865f2;
+                font-size: 25px;
+            }
+            .section2{
+                width: 100%;
+                height: 100%;
+                background-color: #FF424D;
+                text-align: center;
+            }
+            .buttonpatreon{
+                background-color: white;
+                font-size: 25px;
+                color: black;
+            }
+            .section3{
+                width: 100%;
+                height: 100%;
+                background-color: #9146ff;
+                text-align: center;
+            }
+            *{
+                margin:	0% 0% 0% 0%;
+                padding: 0;
+            }
+            .section4{
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="header">{ B R A C K E T }</h1><p class="headercenter"><a href="#">Home</a> | <a href="#info">Info</a> | <a href="#discord">Discord</a> | <a href="#patreon">Patreon</a> | <a href="#twitch">Stream</a></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="info" id="info">
+            <h1>Information About Me!</h1>
+            <p>I'm Bracket!</p>
             <br>
-            <a href="https://uwubot.org">https://uwubot.org</a>
+            <p>I'm a furry from the UK that makes some <br> content and makes projects such as websites, games, and <br> discord bots!</p>
             <br>
             <br>
-            <a href="https://discord.gg/eSybT7UuXE">https://discord.gg/eSybT7UuXE</a>
-            <p>Description: Moderation, fun bot, and log bot all in one place!</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <br>
         </div>
-    </div>
-    </div>
-    <div class="footer">
-        <div class="center">
-            <div class="whitetext">
-                <p>Website made by Bracket Proto<img src="./assets/poggergen.png" width="20px"></p>
-                <a href="https://discordapp.com/users/530036821707718678">
-                    <img alt="discord" src="./assets/discordsocial.png" width="50px">
-                 </a>
-                 <a href="https://www.youtube.com/c/BracketProto">
-                    <img alt="discord" src="./assets/youtubesocial.png" width="50px">
-                 </a>
-            </div>
+        <div class="section" id="discord">
+            <h1 style="text-align: center;">Discord</h1>
+
+            <p>Join our discord and engage with the community!</p>
+
+            <a class="buttondiscord" href="#">Join the Server</a>
+
+            <br>
+            <br>
+            <br>
+            <widgetbot
+            server='880517732364320788'
+            channel='880519023517909092'
+            width=100%
+            height="500"
+          ></widgetbot>
+          <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
         </div>
-    </div>
-</body>
+        <div class="section2" id="patreon">
+            <img src="./Assets/images/Digital-Patreon-Wordmark_White.png" width="20%">
+            <p>Want to support me? Head on over to my patreon!</p>
+            <br>
+            <a class="buttonpatreon" href="#">Patreon Page</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="section3" id="twitch">
+            <h1>Twitch Stream</h1>
+            <p>twitch.tv/bracketproto</p>
+            <br>
+            <div id="twitch-embed"></div>
+
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element. -->
+            <script type="text/javascript">
+              var embed = new Twitch.Embed("twitch-embed", {
+                width: 854,
+                height: 480,
+                channel: "bracketproto",
+                layout: "video",
+                autoplay: false,
+                // Only needed if this page is going to be embedded on other websites
+                parent: ["embed.example.com", "othersite.example.com"]
+              });
+        
+              embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+                var player = embed.getPlayer();
+                player.play();
+              });
+            </script>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="section4">
+            <h1>Other Links</h1>
+            <a href="https://twitch.tv/bracketproto">
+                <img src="./Assets/images/TwitchGlitchWhite.png" alt="Twitch" style="width:2.5%;height:2.5%px;border:0">
+              </a>             <a href="https://twitter.com/BracketProto">
+                <img src="./Assets/images/2021 Twitter logo - white.png" alt="Twitter" style="width:2.5%;height:2.5%px;border:0">
+              </a>             <a href="https://youtube.com/bracketproto">
+                <img src="./Assets/images/yt_icon_mono_dark.png" alt="Youtube" style="width:2.5%;height:2.5%px;border:0">
+              </a>             <a href="https://discord.gg/V6nJKE4g2k">
+                <img src="./Assets/images/icon_clyde_white_RGB.png" alt="Discord" style="width:2.5%;height:2.5%px;border:0">
+              </a>
+              <br>
+              2021 BracketProto © All Rights Reserved.
+        </div> 
+    </body>
 </html>
